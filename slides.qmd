@@ -5,7 +5,6 @@ authors:
 - Will Barnes
 - Stuart Mumford
 - Nabil Freij
-- The SunPy Project
 institute:
 - AU/NASA GSFC
 - Aperio Software
@@ -18,7 +17,7 @@ format:
     height: 100%
     theme: [default, theme/sunpy-theme.scss]
     logo: static/sunpy_logo_landscape.png
-title-slide-attributes: 
+title-slide-attributes:
   data-background-image: static/sunpy_icon.svg
   data-background-position: -100% 50%
   data-background-opacity: 50%
@@ -36,20 +35,21 @@ sunpy.log.setLevel('ERROR')
 
 ## What's New in The SunPy Project? {background-image="static/sunpy_icon.svg" background-size="70%" background-opacity="50%"}
 
-- v6.0 Released **June 2024**
-- v6.1 coming **December 2024**
-- Updates to package template and packaging guide
-- Overhaul of the SunPy Project Goverenance 
+- v6.0 Released - **June 2024**
+- v6.1 coming - **December 2024**
+- Further improvements to automated templating and packaging guide
+- Overhaul of the SunPy Project Governance
+- ROSES OSTFL 2024 Funding Awarded
 
 ## `sunpy` v6.0 {background-image="static/sunpy_icon.svg" background-size="70%" background-opacity="50%"}
 
 - New features in v6.0 include:
     - Overhaul of optional dependencies
     - Decoupling dates in Map
-    - Support for ADvanced Adaptive Prediction Technique (ADAPT) data
+    - Support for ADvanced Adaptive Prediction Technique (ADAPT) data - Map and Fido
     - New PlanarScreen context manager
     - Method to compute the rotation matrix between two SPICE frames
-    - Standard removal of deprecated features and updated minimun dependencies
+    - Standard removal of deprecated features and updated minimum dependencies
 - By the numbers:
   - Since v5.1: 795 commits in 177 merged pull requests closing 67 issues.
   - 34 contributors, **16 of whom are new contributors**
@@ -58,12 +58,12 @@ sunpy.log.setLevel('ERROR')
 ## `sunpy` v6.1 {background-image="static/sunpy_icon.svg" background-size="70%" background-opacity="50%"}
 
 - New features that will be in v6.1 include:
-    - Improving HEK Representation within FIDO.
-    - Support for Helioprojective Radial
+    - Improving HEK Representation within Fido
+    - Support for Helioprojective Radial Frame
     - URI handling in Map and Timeseries
     - Save support for ASDF
-    - Ability to draw the extent of another wcs ontop of a Map.
-    - Standard removal of deprecated features and updated minimun dependencies
+    - Ability to draw the extent of another WCS on top of a Map.
+    - Standard removal of deprecated features and updated minimum dependencies
 
 ## The SunPy Package Template
 
@@ -74,22 +74,21 @@ sunpy.log.setLevel('ERROR')
   cruft create github.com/OpenAstronomy/packaging-guide
   ```
 
-- Differences with pyOpenSci?
-  - More opinionated, specific choices
-  - Everything "looks like" `sunpy`/`astropy`
-  
-- OpenAstronomy template + SunPy specific functionality: [github.com/sunpy/package-template](https://github.com/sunpy/package-template)
+- OpenAstronomy template + SunPy specific functionality == SunPy Package Template [github.com/sunpy/package-template](https://github.com/sunpy/package-template)
   - Enable automatic packaging, linting and other configuration updates over all SunPy-maintained packages.
+  - Bot workflow allows weekly updates from the central repository using Pull requests
+  - Simplified greatly maintenance of 15+ repositories
 
-## Summary  {background-image="static/sunpy_icon.svg" background-size="70%" background-opacity="50%"}
+## Overhaul of the SunPy Project Governance
 
-- v5.1 Released **21 November 2023**
-  - **Calculating the amount of solar eclipse**
-  - **Computations using SPICE kernels**
-  - **Coordinate frames related to the Earth’s magnetic dipole**
-- v6.0 coming **May 2024**
-- New affiliated package: `sunkit-magex`
-- Updates to package template and packaging guide
-- pyOpenSci Partnership [![pyopensci](https://img.shields.io/badge/PyOpenSci-Peer%20Reviewed-success.svg)](https://github.com/pyOpenSci/software-submission/issues/147)
-  - Accepted 18 January 2024: [pyOpenSci/software-submission#147](https://github.com/pyOpenSci/software-submission/issues/147)
-  - Overhaul of affiliated package review system: [sunpy/sunpy.org#402](https://github.com/sunpy/sunpy.org/issues/402)
+- Previous structure: Elected Board who appointed key personal like lead developer
+- Long process to rewrite SEP-2
+- New structure: Elected Project Custodians who then elect a 3 person Steering Committee with an Advisory Board.
+- Steering Committee Elected: Stuart Mumford, Laura Hayes & Albert Shih
+
+## ROSES OSTFL 2024 Funding Awarded
+
+- Co-PIs: Albert Shih, Will Barnes, Stuart Mumford, Sam Badman and Kris Someone
+- New Features and Improvements to sunkit-spex (X-ray Spectroscopy)
+- New Features and Improvements to sunkit-magex (Magnetic Field Extrapolations)
+- General sunpy maintenance
