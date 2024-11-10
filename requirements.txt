@@ -1,2 +1,0 @@
-jplephem
-sunpy[map,spice]
