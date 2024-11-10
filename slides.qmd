@@ -49,7 +49,7 @@ sunpy.log.setLevel('ERROR')
     - Support for ADvanced Adaptive Prediction Technique (ADAPT) data - Map and Fido
     - New PlanarScreen context manager
     - Method to compute the rotation matrix between two SPICE frames
-    - Standard removal of deprecated features and updated minimum dependencies
+    - Removal of deprecated features and updated minimum dependencies
 - By the numbers:
   - Since v5.1: 795 commits in 177 merged pull requests closing 67 issues.
   - 34 contributors, **16 of whom are new contributors**
@@ -63,7 +63,7 @@ sunpy.log.setLevel('ERROR')
     - URI handling in Map and Timeseries
     - Save support for ASDF
     - Ability to draw the extent of another WCS on top of a Map.
-    - Standard removal of deprecated features and updated minimum dependencies
+    - Removal of deprecated features and updated minimum dependencies
 
 ## The SunPy Package Template
 
@@ -77,18 +77,24 @@ sunpy.log.setLevel('ERROR')
 - OpenAstronomy template + SunPy specific functionality == SunPy Package Template [github.com/sunpy/package-template](https://github.com/sunpy/package-template)
   - Enable automatic packaging, linting and other configuration updates over all SunPy-maintained packages.
   - Bot workflow allows weekly updates from the central repository using Pull requests
-  - Simplified greatly maintenance of 15+ repositories
+  - Greatly simplified maintenance of 10+ repositories
 
 ## Overhaul of the SunPy Project Governance
 
-- Previous structure: Elected Board who appointed key personal like lead developer
-- Long process to rewrite SEP-2
-- New structure: Elected Project Custodians who then elect a 3 person Steering Committee with an Advisory Board.
-- Steering Committee Elected: Stuart Mumford, Laura Hayes & Albert Shih
+- Previous structure: Elected Board who appointed key personal like the Lead Developer
+- There was a year long process to rewrite SEP-2 to define a new structure
+- New structure:
+    - Elected Project Custodians
+    - Elected 3 person Steering Committee
+    - Advisory Board
+- Steering Committee Elected
+     - Stuart Mumford
+     - Laura Hayes
+     - Albert Shih
 
 ## ROSES OSTFL 2024 Funding Awarded
 
-- Co-PIs: Albert Shih, Will Barnes, Stuart Mumford, Sam Badman and Kris Someone
+- Co-PIs: Albert Shih, Will Barnes, Stuart Mumford, Sam Badman and Kris
 - New Features and Improvements to sunkit-spex (X-ray Spectroscopy)
 - New Features and Improvements to sunkit-magex (Magnetic Field Extrapolations)
 - General sunpy maintenance
