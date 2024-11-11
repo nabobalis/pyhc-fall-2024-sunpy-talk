@@ -23,15 +23,6 @@ title-slide-attributes:
   data-background-opacity: 50%
   data-background-size: 80%
 ---
-```{python}
-#| echo: false
-#| eval: true
-import os
-os.environ["PARFIVE_HIDE_PROGRESS"] = "True"
-
-import sunpy
-sunpy.log.setLevel('ERROR')
-```
 
 ## What's New in The SunPy Project? {background-image="static/sunpy_icon.svg" background-size="70%" background-opacity="50%"}
 
