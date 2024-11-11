@@ -81,12 +81,12 @@ sunpy.log.setLevel('ERROR')
 
 ## Overhaul of the SunPy Project Governance
 
-- Previous structure: Elected Board who appointed key personal like the Lead Developer
+- Previous structure: Self electing Board who appointed key personal like the Lead Developer
 - There was a year long process to rewrite SEP-2 to define a new structure
 - New structure:
-    - Elected Project Custodians
-    - Elected 3 person Steering Committee
-    - Advisory Board
+    - Self-electing Project Custodians based on positive record of contribution to the project.
+    - 3 person Steering Committee, elected by the custodians.
+    - Self Electing Advisory Board (still a WIP)
 - Steering Committee Elected
      - Stuart Mumford
      - Laura Hayes
@@ -94,7 +94,8 @@ sunpy.log.setLevel('ERROR')
 
 ## ROSES OSTFL 2024 Funding Awarded
 
-- Co-PIs: Albert Shih, Will Barnes, Stuart Mumford, Sam Badman and Kris
+- (Co-)PIs: Albert Shih, Will Barnes, Stuart Mumford, Sam Badman and Kris Cooper
+- Project wide documentation improvements: cross-project example gallery, documentation layout and project wide tutorial.
 - New Features and Improvements to sunkit-spex (X-ray Spectroscopy)
 - New Features and Improvements to sunkit-magex (Magnetic Field Extrapolations)
-- General sunpy maintenance
+- General SunPy maintenance
