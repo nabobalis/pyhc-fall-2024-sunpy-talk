@@ -44,16 +44,16 @@ title-slide-attributes:
 - By the numbers:
   - Since v5.1: 795 commits in 177 merged pull requests closing 67 issues.
   - 34 contributors, **16 of whom are new contributors**
-- Full details here: [docs.sunpy.org/en/stable/whatsnew](https://docs.sunpy.org/en/stable/whatsnew)
+- Full details here: [docs.sunpy.org/en/stable/whatsnew](https://docs.sunpy.org/en/stable/whatsnew/6.0.html)
 
 ## `sunpy` v6.1 {background-image="static/sunpy_icon.svg" background-size="70%" background-opacity="50%"}
 
 - New features that will be in v6.1 include:
-    - Improving HEK Representation within Fido
-    - Support for Helioprojective Radial Frame
-    - URI handling in Map and Timeseries
-    - Able to save ASDF with Map
-    - Ability to draw the extent of another WCS on top of a Map
+    - Improving HEK representation within Fido
+    - Support for the Helioprojective Radial coordinate frame
+    - More advanced support for loading Map and Timeseries directly from URLs (such as S3) with fsspec.
+    - `Map.save` support for the ASDF file format
+    - Ability to draw the extent of another WCS on top of a Map.
     - Removal of deprecated features and updated minimum dependencies
 
 ## The SunPy Package Template
