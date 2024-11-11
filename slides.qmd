@@ -52,8 +52,8 @@ title-slide-attributes:
     - Improving HEK Representation within Fido
     - Support for Helioprojective Radial Frame
     - URI handling in Map and Timeseries
-    - Save support for ASDF
-    - Ability to draw the extent of another WCS on top of a Map.
+    - Able to save ASDF with Map
+    - Ability to draw the extent of another WCS on top of a Map
     - Removal of deprecated features and updated minimum dependencies
 
 ## The SunPy Package Template
